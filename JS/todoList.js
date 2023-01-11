@@ -28,6 +28,10 @@ function showTodo(todo) {
     
     button.innerText = "Done";
     button.style.marginLeft = "10px";
+    button.style.color = "white";
+    button.style.backgroundColor = "black";
+    button.style.letterSpacing = "1px";
+    button.style.border = "0";
     button.addEventListener('click', deleteTodo);
 
     li.appendChild(span);
