@@ -1,6 +1,9 @@
 * {
+    color: white;
     text-align: center;
     font-family: 'PT Sans','Nanum Myeongjo', serif, sans-serif;
+    font-weight: bold;
+    
 }
 
 .hidden {
@@ -16,19 +19,52 @@ img {
     right: 0;
     bottom: 0;
     z-index: -1; /* 위치 지정 요소와 그 자손 또는 하위 플렉스 아이템의 z축 순서 지정. 더 큰 z-index값을 가진 요소가 작은 값의 요소 위를 덮음. */
-    opacity: 0.6;
+    opacity: 0.8;
 }  
 
 ul {
-    list-style: none;
+    list-style: "\1F44D";;
+    list-style-position: inside;
+    line-height: 1.5;
+    margin: 0;
+    
 }
 
 #clock {
+    margin-top: 250px; 
     font-size: 95px;
     
 }
 
+#login-form input[type="text"] {
+    width: 300px;
+    height: 25px;
+    letter-spacing: 1px;
+    border: 0;
+}
+
+#login-form input[type="submit"] {
+    width: 55px;
+    height: 25px;
+    letter-spacing: 1px;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+#todo-form input {
+    width: 360px;
+    height: 25px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0;
+}
+
+#quote {
+    margin: 250px 0 0 0;
+}
+
 #weather {
     font-style: italic;
-    text-align: left;
 }
