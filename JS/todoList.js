@@ -26,7 +26,8 @@ function showTodo(todo) {
 
     const button = document.createElement("button");
     
-    button.innerText = "❌";
+    button.innerText = "Done";
+    button.style.marginLeft = "10px";
     button.addEventListener('click', deleteTodo);
 
     li.appendChild(span);
