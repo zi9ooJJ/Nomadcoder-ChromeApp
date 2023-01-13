@@ -3,7 +3,8 @@
     text-align: center;
     font-family: 'PT Sans','Nanum Myeongjo', serif, sans-serif;
     font-weight: bold;
-    
+    margin: 0;
+    padding: 0;
 }
 
 .hidden {
@@ -62,10 +63,15 @@ ul {
 }
 
 #quote {
-    margin: 350px 0 0 0;
+    position: fixed;
+    width: 100%;
+    bottom: 30px;
 }
 
 #weather {
     font-style: italic;
     text-align: left;
+    position: fixed;
+    top: 15px;
+    left: 15px;
 }
