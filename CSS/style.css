@@ -37,6 +37,10 @@ ul {
     
 }
 
+input {
+    color: gray;
+}
+
 #login-form input[type="text"] {
     width: 300px;
     height: 25px;
