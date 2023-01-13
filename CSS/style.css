@@ -39,6 +39,7 @@ ul {
 
 input {
     color: gray;
+    opacity: 0.7;
 }
 
 #login-form input[type="text"] {
